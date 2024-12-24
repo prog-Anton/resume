@@ -4,33 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+    <link rel="stylesheet" href="styles_portfolio.css">
 </head>
 <body>
-    <h1>My portfolio</h1>
-    <img src="image.png/portfolio_img.jpg" alt="my photo" width="300">
+
+    <div class="container">
+        <div class="info-text">
+
+    <img class="borders" src="image.png/portfolio_img.jpg" alt="my photo">
+   
+
+
+
+
+    <h1><em>Anton Dolgushin</em></h1>
+    
     <hr>
-    <h2>About me:</h2>
-    <ol>
+
+    <div class="info">
+
+        <h2>Список социальных сетей:</h2>
+
+        <a href="https://www.instagram.com/dolger_2d2?igsh=MXZ5dGxsN29ybmE3YQ==" target="_blank">Instagram</a>
+        |
+        <a href="https://t.me/QWERTY_2d2" target="_blank">Telegram</a>
+        |
+        <a href="https://vk.com/antondpop" target="_blank">VK</a>
+    
+    </div>
+
+    <hr>
+
+
+    <div class="card color1">
+
+        <h2>About me:</h2>
+
+    <ol class="list">
         <li>Name: Anton</li>
         <li>Age: 29</li>
         <li>City: Izhevsk</li>
         <li>Country: RUS</li>
     </ol>
-<h2>Hobbies:</h2>
-<ul>
-    <li>MMA</li>
-    <li>Sailing</li>
-    <li>Sport</li>
-    <li>Traveling</li>
-    <li>Programming</li>
-</ul>
+
+    </div>
+</div>
+
+
+
+<div class="card color2">
+
+    <h2>Hobbies:</h2>
+
+    <ul class="link-list">
+
+        <li>MMA</li>
+        <li>Sailing</li>
+        <li>Sport</li>
+        <li>Traveling</li>
+        <li>Programming</li>
+        
+    </ul>
+
+</div>
+
+
+
 <hr>
 
-<img src="https://www.worcesterhistory.org/wp-content/uploads/2020/07/54-540653_500-instagram-logo-icon-gif-transparent-png-insta.jpg" alt="instagram img" width="50"><a href="https://www.instagram.com/dolger_2d2?igsh=MXZ5dGxsN29ybmE3YQ==">Instagram</a>
-
-<hr>
-
-<table>
+<div class="card color3">
+ 
+<table class="table">
     <thead>
         <tr>
             <th>Job</th>
@@ -38,6 +82,7 @@
             <th>Period</th>
         </tr>
     </thead>
+ 
 
     <tbody>
         <tr>
@@ -47,39 +92,64 @@
         </tr>
     </tbody>
 
+
+    <tbody>
+        <tr>
+            <td>Sailor</td>
+            <td>Captain</td>
+            <td>One season</td>
+        </tr>
+    </tbody>
+
+
 </table>
+</div>
+
+
+<hr>
+
+
 
     <hr>
 
-    
+
+<form action="/" class="form">
+
+
+<div class="footer"> 
+
     <h2>Contact me:</h2>
 
-    <div>
+<div class="form-row">
+
+    <div class="form-group">
         <label for="name">Your name:</label>
         <input type="text" id="name" placeholder="Enter your name">
     </div>
 
-    <br>
+    
 
-    <div>
+    <div class="form-group">
         <label for="mail">Email:</label>
         <input type="email" id="mail" placeholder="Enter your Email">
     </div>
 
-        <br>
+</div>
 
-        <div>
+        <div class="form-group">
             <label for="message">Your message:</label>
 
-            <br>
+          
 
             <textarea name="text2" id="message" cols="25" rows="5" placeholder="Enter your text..."></textarea>
         
         </div>
 
             <div>
-                <button type="submit">Send form</button>
+                <button class="btn" type="submit">Send form</button>
             </div>
-        
+    </div>
+    </form>
+</div>
 </body>
 </html>
